@@ -92,7 +92,21 @@ body{
 }
 
 #people{
-	margin:0;
+	
+}
+
+#people .people-block{
+	background-color:#777;
+	float:left;
+	width:30%;
+	margin-left:2.5%;
+	margin-bottom:2%;
+	box-sizing:border-box;
+}
+
+#people .people-block img{
+	max-width:100%;
+	height:auto;
 }
 
 #people .people-block h4{
@@ -102,4 +116,20 @@ body{
 #people .people-block p{
 
 	font-size:12px;
+}
+
+@media(max-width:768px){
+	#games .game-block{
+		float:none;
+		width:100%;
+	}
+
+	#people .people-block{
+		float:left;
+		width:45%;
+	}
+
+	#navbar a{
+		display:none;
+	}
 }
