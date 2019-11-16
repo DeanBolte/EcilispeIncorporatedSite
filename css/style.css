@@ -18,6 +18,22 @@ body{
 	text-align:center;
 }
 
+#main-header a{
+	color:#fff;
+	text-decoration:none;
+	font-size:28px;
+}
+
+.section-title{
+	text-align:center;
+}
+
+.section-divider{
+	width:80%;
+	border-style:outset;
+	border-width: 2px;
+}
+
 #navbar{
 	
 }
@@ -58,6 +74,15 @@ body{
 #games .game-block{
 	float:left;
 	width:40%;
-	margin: 0px 20px;
+	padding:0px 20px;
 	box-sizing:border-box;
+}
+
+#main-footer{
+	font-size:10px;
+	padding-left:5px;
+}
+
+#people .people-block h4{
+
 }
