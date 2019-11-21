@@ -86,7 +86,16 @@ body{
 	height:auto;
 }
 
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 10px 24px 0 rgba(0, 0, 0, 0.35);
+}
+
 #main-footer{
+	color:#666;
 	font-size:10px;
 	padding-left:5px;
 }
@@ -96,7 +105,7 @@ body{
 }
 
 #people .people-block{
-	background-color:#777;
+	background-color:#555;
 	float:left;
 	width:30%;
 	margin-left:2.5%;
@@ -107,15 +116,27 @@ body{
 #people .people-block img{
 	max-width:100%;
 	height:auto;
+	margin:0px;
 }
 
 #people .people-block h4{
-
+	float:left;
+	padding-left:4px;
+	padding-bottom:4px;
+	margin:0px;
 }
 
 #people .people-block p{
-
+	float:left;
+	padding-left:8px;
+	padding-top:1px;
 	font-size:12px;
+	margin:0px;
+}
+
+#people .people-block a{
+	color:#fff;
+	text-decoration:none;
 }
 
 @media(max-width:768px){
