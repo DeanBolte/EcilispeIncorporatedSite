@@ -16,7 +16,7 @@ body{
 #main-header a{
 	color:#fff;
 	text-decoration:none;
-	font-size:28px;
+	font-size:56px;
 }
 
 /* -- general classes  -- */
@@ -146,7 +146,46 @@ body{
 
 /* --- Games Page --- */
 
+#game-title{
+	font-size: 32px;
+	margin-bottom: 4px;
+}
+
+#game-showcase{
+
+}
+
+#game-showcase img{
+	float:left;
+	width:30%;
+	height:auto;
+	margin-left:2.5%;
+	margin-bottom:24px;
+}
+
+#game-news .news-block{
+	float:left;
+	width:100%;
+	padding:5px;
+	margin:0px;
+}
+
+#game-news .news-block img{
+	float:left;
+	width:40%;
+	margin-right:5%;
+}
+
+#game-news .news-block p{
+	float:left;
+	width:50%;
+}
+
 /* --- People Page --- */
+
+
+
+/* --- Resizing --- */
 
 @media(max-width:768px){
 	#games .game-block{
